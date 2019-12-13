@@ -1,8 +1,8 @@
 @echo off
 title Server
-IF EXIST C:\Users\%username%\AppData\Local\Programs\p GOTO M1
+IF EXIST C:\Users\%username%\AppData\Local\Programs\Python GOTO M1
 
-IF NOT EXIST C:\Users\%username%\AppData\Local\Programs\p GOTO M2
+IF NOT EXIST C:\Users\%username%\AppData\Local\Programs\Python GOTO M2
 :M1
 echo Starting...
 cd music\Scripts
