@@ -1,0 +1,26 @@
+html{ color:rgb(13, 116, 161);
+	  background-color:rgb(31, 29, 29);
+}
+h1{margin-left:40%;	font-size:45px;}
+.Image{
+	margin-left:28%;
+	opacity:0.7;
+}
+
+.test{
+	margin-top:1000px;
+	
+}
+#top {
+	display:none;right:0.3%;bottom:16px;width:425px;height:48px;
+}
+#top2 {
+	margin-top:200px;
+	display:none;right:0.3%;bottom:16px;width:425px;height:48px;
+}
+#Lyrics {
+	margin-top:-980px;
+	display:none;right:0.3%;bottom:16px;width:425px;height:397px;
+	border:solid black 1.5px;
+	box-shadow: 5px 1px 8px 3px ;
+}
