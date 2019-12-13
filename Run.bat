@@ -1,7 +1,13 @@
 @echo off
+title Server
 echo Starting...
 cd music\Scripts
-start activate.bat
+start /min activate.bat
 cd MusicMisha
-start python manage.py runserver
+start /min python manage.py runserver
+cd C:\Users\ExitF1ndeR\Desktop\Projects\Django
+echo Press any key to run server
+pause
+start /min Web.py
+exit
 pause
