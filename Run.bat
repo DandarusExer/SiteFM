@@ -10,4 +10,3 @@ echo Press any key to run server
 pause
 start /min Web.py
 exit
-pause
